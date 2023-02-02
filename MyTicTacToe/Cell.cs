@@ -8,10 +8,12 @@ namespace MyTicTacToe
 {
     internal class Cell
     {
-        Mark? marks;
+        Mark marks;
 
-        public Cell(Mark) {
+        public Cell() {
         
         }
+
+        public void markACell()
     }
 }
